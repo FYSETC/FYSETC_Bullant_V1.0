@@ -29,12 +29,18 @@ Insert SD card into a slot and power the board. (First) boot (with DHCP) takes u
 
 ## How to login?
 
-1. Via the serial port
+Via the serial port
+
 On the Bullant, there is a USB-C interface, which is connected to the serial port of the R329 through the CH340, and its baud rate is 115200.
+
 Make sure your computer has the CH340 driver installed, and connect the bullant to your PC using a USBA-C data cable.
+
 You can then use SSH software like Xshell, mobaxterm, putty, etc. to communicate with Bullant.
+
 Default username: bullant
+
 Default password: armbian
+
 root password: armbian
 
 After logging in, you can manage the network connection by using the nmtui command, and you can connect SSH over the network next time.you can also note down the bullant's IP address in order to access the klipper web page.
